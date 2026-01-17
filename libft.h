@@ -6,7 +6,7 @@
 /*   By: mamelnyk <mamelnyk@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/08 12:35:27 by mamelnyk          #+#    #+#             */
-/*   Updated: 2025/11/20 23:26:49 by mamelnyk         ###   ########.fr       */
+/*   Updated: 2026/01/17 04:46:04 by anatoliy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,9 @@ char	*ft_itoa(int num);
 char	*ft_strmapi(char const *str, char (*fun)(unsigned int, char));
 void	ft_striteri(char *str, void (*fun)(unsigned int, char *));
 void	ft_putchar_fd(char c, int fd);
+int		ft_putchar(char c);
 void	ft_putstr_fd(char *str, int fd);
+int		ft_putstr(char *str);
 void	ft_putendl_fd(char *str, int fd);
 void	ft_putnbr_fd(int num, int fd);
 t_list	*ft_lstnew(void *content);
