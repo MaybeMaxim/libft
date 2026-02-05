@@ -6,7 +6,7 @@
 /*   By: mamelnyk <mamelnyk@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/08 12:35:27 by mamelnyk          #+#    #+#             */
-/*   Updated: 2026/01/22 22:42:09 by maxim            ###   ########.fr       */
+/*   Updated: 2026/01/30 20:09:35 by mamelnyk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,5 +70,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 int		ft_printf(const char *fmt, ...);
 char	*get_next_line(int fd);
 int		ft_strcmp(const char *s1, const char *s2);
+char	*ft_strjoin_many(unsigned int count, ...);
 
 #endif

@@ -46,6 +46,7 @@ SRC     = ft_isalpha.c \
 		  get_next_line.c \
 		  get_next_line_utils.c \
 		  ft_strcmp.c \
+		  ft_strjoin_many.c \
 
 SRCBONUS = ft_lstnew_bonus.c \
            ft_lstadd_front_bonus.c \
