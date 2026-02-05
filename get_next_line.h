@@ -6,14 +6,14 @@
 /*   By: mamelnyk <mamelnyk@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/03 12:50:30 by mamelnyk          #+#    #+#             */
-/*   Updated: 2025/11/15 17:47:23 by mamelnyk         ###   ########.fr       */
+/*   Updated: 2026/02/03 12:42:58 by mamelnyk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 1024
+#  define BUFFER_SIZE 100
 # endif
 
 # include <unistd.h>
