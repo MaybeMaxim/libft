@@ -6,7 +6,7 @@
 /*   By: mamelnyk <mamelnyk@student.42warsaw.pl>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/08 12:35:27 by mamelnyk          #+#    #+#             */
-/*   Updated: 2026/01/30 20:09:35 by mamelnyk         ###   ########.fr       */
+/*   Updated: 2026/07/30 17:46:47 by mamelnyk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdarg.h>
+# include <stdbool.h>
 
 typedef struct s_list
 {
@@ -71,5 +73,6 @@ int		ft_printf(const char *fmt, ...);
 char	*get_next_line(int fd);
 int		ft_strcmp(const char *s1, const char *s2);
 char	*ft_strjoin_many(unsigned int count, ...);
+char	*ft_ultoa(unsigned long num);
 
 #endif
